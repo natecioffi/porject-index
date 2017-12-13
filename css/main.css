@@ -22,8 +22,9 @@ nav{
 	background: #000;
 	}
 nav h1{
-	font-family: montserrat;
-	font-weight: extra-bold;
+	font-family: lora;
+	font-weight: bold;
+	letter-spacing: .02em;
 	background-color: #333;
 	color: #fff; 
 	text-align: center;
@@ -39,7 +40,7 @@ nav ul{
 	}
 nav li{
 	font-family: montserrat;
-	font-weight: 700;
+	font-weight: extra-light;
 	display: block;
 	margin: 1em 0;
 	padding: 2em 3em;
@@ -75,11 +76,16 @@ footer ul {
 footer li{
 	text-align: center;
 	list-style: none;
+	}
+#main p{
+	font-family: lora;
+	padding: 1em 0 5em 0;
+	}
 @font-face {
     font-family: montserrat;
     src: url('../font/montserrat-bold-webfont.woff2') format('woff2'),
          url('../font/montserrat-bold-webfont.woff') format('woff');
-    font-weight: 700;
+    font-weight: bold;
     font-style: normal;
 
 }
@@ -91,7 +97,7 @@ footer li{
     font-family: montserrat;
     src: url('../font/montserrat-extralight-webfont.woff2') format('woff2'),
          url('../font/montserrat-extralight-webfont.woff') format('woff');
-    font-weight: 100;
+    font-weight: extra-light;
     font-style: normal;
 
 }
